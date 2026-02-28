@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jobtracker
+    username: postgres
+    password: RE3remake2020!
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+      
+  security:
+    user:
+      name: disabled
+
+server:
+  port: 8080
